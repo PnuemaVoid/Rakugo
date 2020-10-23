@@ -1,7 +1,6 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://themes/Default/default.tres" type="Theme" id=2]
-[ext_resource path="res://addons/Rakugo/nodes/controls/rakugo_label.gd" type="Script" id=3]
 [ext_resource path="res://fonts/DejaVu/DejaVuSans.ttf" type="DynamicFontData" id=4]
 
 [sub_resource type="DynamicFont" id=1]
@@ -86,8 +85,11 @@ bbcode_text = "Yo sup fuckers"
 text = "Yo sup fuckers"
 scroll_active = false
 selection_enabled = true
+<<<<<<< HEAD
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 rakugo_text = "Yo sup fuckers"
+=======
+>>>>>>> 2f0ccc265c301fec149ce0efc56a5a616474660a
