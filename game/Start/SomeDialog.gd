@@ -3,21 +3,63 @@ extends Dialogue
 var path_choice = ''
 
 func some_dialog():
+	
 	start_event("some_dialog")
 
-
-	say(null, "Show 'rect red', step #%d" % get_event_step())
+	say(null, "They say that happiness is a thing that you must create for your self.", {'typing': true})
 	show("rect red")
 	step()
 	
-	say(null, "Show 'rect blue', step #%d" % get_event_step())
+	say(null, "They say that your life is something that you must treasure.", {'typing': true})
 	show("rect blue")
 	step()
 	
-	say(null, "Hide 'rect red', step #%d" % get_event_step())
+	say(null, "They say many things...", {'typing': true})
 	hide("rect red")
 	step()
 	
+	say(null, "When my mother passed, she handed me this seed.", {'typing': true})
+	step()
+
+	say(null, "She said that the day I found true happiness, the seed would grow.", {'typing': true})
+	step()
+
+	say(null, "She said she wanted me to find my own happiness,", {'typing': true})
+	step()
+
+	say(null, "And I promised I would.", {'typing': true})
+	step()
+
+	say(null, "So I planted the seed here on this hill,", {'typing': true})
+	step()
+
+	say(null, "And I've waited...", {'typing': true})
+	step()
+
+	say(null, "I waited for the happiness my mother wanted me to have,", {'typing': true})
+	step()
+
+	say(null, "Until I realised it would not come.", {'typing': true})
+	step()
+
+	say(null, "And so I read, I sang, and I played..", {'typing': true})
+	step()
+
+	say(null, "I searched for the happiness she spoke of..", {'typing': true})
+	step()
+
+	say(null, "And it never came...", {'typing': true})
+	step()
+
+	say(null, "But leaving that seed would mean turining my back on my promise.", {'typing': true})
+	step()
+
+	say(null, "I can't let myself do that..", {'typing': true})
+	step()
+
+	say(null, "So here I am, and here I will be. Until I can make this seed grow.", {'typing': true})
+	step()
+
 	say(null, "Little test of the choice menu")
 	var choice = menu([["Choice 1", 1, {}], ["Choice 2", 2, {'visible':true}],["Choice 3", 3, {'visible':false}]])
 	step()
