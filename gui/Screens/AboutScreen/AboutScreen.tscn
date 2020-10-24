@@ -81,13 +81,5 @@ theme = ExtResource( 2 )
 custom_colors/selection_color = Color( 0, 0.6, 0.8, 1 )
 custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
 bbcode_enabled = true
-bbcode_text = "Yo sup fuckers"
-text = "Yo sup fuckers"
 scroll_active = false
 selection_enabled = true
-
-script = ExtResource( 3 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-rakugo_text = "Yo sup fuckers"
