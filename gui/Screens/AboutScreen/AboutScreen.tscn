@@ -85,11 +85,9 @@ bbcode_text = "Yo sup fuckers"
 text = "Yo sup fuckers"
 scroll_active = false
 selection_enabled = true
-<<<<<<< HEAD
+
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 rakugo_text = "Yo sup fuckers"
-=======
->>>>>>> 2f0ccc265c301fec149ce0efc56a5a616474660a

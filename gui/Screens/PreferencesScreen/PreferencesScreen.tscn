@@ -1,11 +1,7 @@
 [gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://themes/Default/default.tres" type="Theme" id=1]
-<<<<<<< HEAD
-[ext_resource path="res://themes/question/question.tres" type="Theme" id=2]
-=======
 [ext_resource path="res://gui/Screens/PreferencesScreen/WindowCheck.gd" type="Script" id=2]
->>>>>>> 2f0ccc265c301fec149ce0efc56a5a616474660a
 [ext_resource path="res://gui/Screens/PreferencesScreen/FullscreenCheck.gd" type="Script" id=3]
 [ext_resource path="res://gui/Screens/PreferencesScreen/TextSpeedSlider.gd" type="Script" id=6]
 [ext_resource path="res://gui/Screens/PreferencesScreen/AutoSpeedSlider.gd" type="Script" id=7]
@@ -52,13 +48,8 @@ theme = ExtResource( 1 )
 text = "Display"
 valign = 1
 
-<<<<<<< HEAD
-[node name="FullscreenCheck" type="CheckButton" parent="Rows/OptionScreen/Display"]
-margin_top = 39.0
-=======
 [node name="WindowCheck" type="CheckButton" parent="Rows/OptionScreen/Display"]
 margin_top = 31.0
->>>>>>> 2f0ccc265c301fec149ce0efc56a5a616474660a
 margin_right = 138.0
 margin_bottom = 68.0
 theme = ExtResource( 1 )
@@ -66,13 +57,8 @@ group = SubResource( 1 )
 text = "Window"
 script = ExtResource( 2 )
 
-<<<<<<< HEAD
-[node name="VSyncCheck" type="CheckButton" parent="Rows/OptionScreen/Display"]
-margin_top = 72.0
-=======
 [node name="FullscreenCheck" type="CheckButton" parent="Rows/OptionScreen/Display"]
 margin_top = 64.0
->>>>>>> 2f0ccc265c301fec149ce0efc56a5a616474660a
 margin_right = 138.0
 margin_bottom = 101.0
 theme = ExtResource( 1 )

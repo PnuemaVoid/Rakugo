@@ -26,11 +26,6 @@ func _on_nav_button_press(nav):
 		"continue":
 			if !Rakugo.loadfile("auto"):
 				return
-<<<<<<< HEAD
-
-			in_game()
-=======
->>>>>>> 2f0ccc265c301fec149ce0efc56a5a616474660a
 			hide()
 
 		"save":

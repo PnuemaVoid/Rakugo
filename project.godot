@@ -328,18 +328,10 @@ rakugo_quickload={
 [rakugo]
 
 default/narrator/name=""
-<<<<<<< HEAD
-default/delays/typing_effect_delay=0.05
-default/delays/typing_effect_punctuation_delay=0.2
-=======
 default/statements/default_say_parameters={
 "typing": true
 }
->>>>>>> 2f0ccc265c301fec149ce0efc56a5a616474660a
-
-[rendering]
-
-quality/intended_usage/framebuffer_allocation=0
+>>>>>>>2f0ccc265c301fec149ce0efc56a5a616474660a[rendering]quality/intended_usage/framebuffer_allocation=0
 quality/intended_usage/framebuffer_allocation.mobile=0
 quality/2d/use_pixel_snap=true
 environment/default_environment="res://default_env.tres"
